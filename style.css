@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding-top: 100px;
+    text-align: center;
+    color: cyan;
 }
 
 img {
@@ -25,12 +27,14 @@ img {
 .c1 {
     display: table-cell;
     text-align: center;
+    color: blue;
 }
 
 .line {
     height: 6px;
     background-color: black;
     width: 100px;
+       margin: 20px auto; 
 }
 
 p {
@@ -41,6 +45,7 @@ p {
 
 .menu {
     font-family: roboto;
+    position: fixed;
     list-style: none;
     position: absolute;
     z-index: 10;
@@ -48,7 +53,7 @@ p {
 }
 
 .list {
-    float: left;
+    display: inline;
     color: aqua;
     font-family: roboto;
     font-size: 20px;
@@ -60,5 +65,28 @@ p {
 }
 
 #s1 {
-    font-family:'Reggae One', cursive;
+    font-family: 'Reggae One', cursive;
+}
+
+a {
+    text-decoration: none;
+    text-shadow: 2px 2px darkblue;
+    ;
+    color: crimson;
+}
+
+.a1:hover {
+    color: fuchsia;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+#Writing a{
+    text-shadow: none !important;
+    color: firebrick !important;
+}
+#Contact {
+    text-align: center;
+    color: aqua;
 }
